@@ -1,2 +1,3 @@
-# multepal.github.io
-Homepage for the Multepal Project
+# Multepal on GitHub Pages
+
+This is the homepage for the Multepal Project.

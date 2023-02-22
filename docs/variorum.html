@@ -87,8 +87,6 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link active" href="./variorum.html" aria-current="page">
  <span class="menu-text">Variorum</span></a>
   </li>  
-  <li class="dropdown-header">
- <span class="menu-text">about.qmd</span></li>
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
           </div> <!-- /navcollapse -->
@@ -104,8 +102,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
-  <li><a href="#what-is-a-variorum" id="toc-what-is-a-variorum" class="nav-link" data-scroll-target="#what-is-a-variorum">What is a Variorum?</a></li>
+  <li><a href="#what-is-a-variorum" id="toc-what-is-a-variorum" class="nav-link active" data-scroll-target="#what-is-a-variorum">What is a Variorum?</a></li>
+  <li><a href="#examples" id="toc-examples" class="nav-link" data-scroll-target="#examples">Examples</a></li>
+  <li><a href="#data-model" id="toc-data-model" class="nav-link" data-scroll-target="#data-model">Data Model</a></li>
+  <li><a href="#plan" id="toc-plan" class="nav-link" data-scroll-target="#plan">Plan</a></li>
+  <li><a href="#examples-and-resources" id="toc-examples-and-resources" class="nav-link" data-scroll-target="#examples-and-resources">Examples and Resources</a></li>
+  <li><a href="#popol-wujs" id="toc-popol-wujs" class="nav-link" data-scroll-target="#popol-wujs">Popol Wujs</a></li>
   </ul>
 </nav>
     </div>
@@ -129,11 +131,202 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="introduction" class="level2">
-<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-</section>
 <section id="what-is-a-variorum" class="level2">
 <h2 class="anchored" data-anchor-id="what-is-a-variorum">What is a Variorum?</h2>
+<p>A collection of all of the variants of a given text, e.g.&nbsp;the Ximenez transcription and translation of the K’iche’ Mayan text.</p>
+<p>Each text is connected to its source element by element. - An element is a unit of text, such as a paragraph, sentence, folio side, folio line, series of words, word, etc.</p>
+</section>
+<section id="examples" class="level2">
+<h2 class="anchored" data-anchor-id="examples">Examples</h2>
+<ul>
+<li><a href="https://newvariorumshakespeare.org/edition/mnd/">Shakespeare Varioryum</a></li>
+</ul>
+</section>
+<section id="data-model" class="level2">
+<h2 class="anchored" data-anchor-id="data-model">Data Model</h2>
+<p>The foundation of the variorum is the collocation table, a table that maps every element to its source.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Fuente</th>
+<th>Destino</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>XIMENEZ Folio x1 Line y1</code></td>
+<td><code>COLOP Page m1 Line n1</code></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><code>XIMENEZ Folio x2 Line y2</code></td>
+<td><code>COLOP Page m2 Line m2</code></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><code>COLOP Page m1 Line n1</code></td>
+<td><code>AHTZIB Page p1 Line q1</code></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><code>COLOP Page m1 Line n1</code></td>
+<td><code>BARIENTE Page p2 Line q2</code></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Once collected, these data may be used to generate graphs depicting the genealogy of translation for a given element of a translation.</p>
+<p>This will allow scholars to conduct close readings of the texts and investigate the scholarly decisions made in producing a given translation.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<p>
+<svg width="672" height="480" viewbox="0.00 0.00 312.26 204.80" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 200.8)">
+<title>
+G
+</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-200.8 308.26,-200.8 308.26,4 -4,4"></polygon> <!-- XIMENEZ_y1y1 --> <g id="node1" class="node">
+<title>
+XIMENEZ_y1y1
+</title>
+<text text-anchor="middle" x="115.68" y="-180.2" font-family="Times,serif" font-size="14.00">XIMENEZ</text> <text text-anchor="middle" x="115.68" y="-163.4" font-family="Times,serif" font-size="14.00">Folio x1 Line y1</text> </g> <!-- COLOP_m1n1 --> <g id="node2" class="node">
+<title>
+COLOP_m1n1
+</title>
+<text text-anchor="middle" x="115.68" y="-102.6" font-family="Times,serif" font-size="14.00">COLOP</text> <text text-anchor="middle" x="115.68" y="-85.8" font-family="Times,serif" font-size="14.00">Page m1 Line n1</text> </g> <!-- XIMENEZ_y1y1&#45;&gt;COLOP_m1n1 --> <g id="edge1" class="edge">
+<title>
+XIMENEZ_y1y1-&gt;COLOP_m1n1
+</title>
+<path fill="none" stroke="black" d="M115.68,-155.14C115.68,-147.24 115.68,-137.98 115.68,-129.3"></path> <polygon fill="black" stroke="black" points="119.18,-129.13 115.68,-119.13 112.18,-129.13 119.18,-129.13"></polygon> </g> <!-- AHTZIB_p1q1 --> <g id="node5" class="node">
+<title>
+AHTZIB_p1q1
+</title>
+<text text-anchor="middle" x="53.68" y="-25" font-family="Times,serif" font-size="14.00">AHTZIB</text> <text text-anchor="middle" x="53.68" y="-8.2" font-family="Times,serif" font-size="14.00">Page x1 Line y1</text> </g> <!-- COLOP_m1n1&#45;&gt;AHTZIB_p1q1 --> <g id="edge3" class="edge">
+<title>
+COLOP_m1n1-&gt;AHTZIB_p1q1
+</title>
+<path fill="none" stroke="black" d="M99.39,-77.54C92.35,-68.94 83.98,-58.74 76.34,-49.42"></path> <polygon fill="black" stroke="black" points="78.91,-47.04 69.87,-41.53 73.5,-51.48 78.91,-47.04"></polygon> </g> <!-- BARIENTE_p2q2 --> <g id="node6" class="node">
+<title>
+BARIENTE_p2q2
+</title>
+<text text-anchor="middle" x="178.68" y="-25" font-family="Times,serif" font-size="14.00">BARIENTE</text> <text text-anchor="middle" x="178.68" y="-8.2" font-family="Times,serif" font-size="14.00">Page p2 Line q2</text> </g> <!-- COLOP_m1n1&#45;&gt;BARIENTE_p2q2 --> <g id="edge4" class="edge">
+<title>
+COLOP_m1n1-&gt;BARIENTE_p2q2
+</title>
+<path fill="none" stroke="black" d="M132.24,-77.54C139.4,-68.94 147.9,-58.74 155.67,-49.42"></path> <polygon fill="black" stroke="black" points="158.53,-51.45 162.24,-41.53 153.15,-46.97 158.53,-51.45"></polygon> </g> <!-- XIMENEZ_x2y2 --> <g id="node3" class="node">
+<title>
+XIMENEZ_x2y2
+</title>
+<text text-anchor="middle" x="246.68" y="-180.2" font-family="Times,serif" font-size="14.00">XIMENEZ</text> <text text-anchor="middle" x="246.68" y="-163.4" font-family="Times,serif" font-size="14.00">Folio x2 Line y2</text> </g> <!-- COLOP_m2y2 --> <g id="node4" class="node">
+<title>
+COLOP_m2y2
+</title>
+<text text-anchor="middle" x="246.68" y="-102.6" font-family="Times,serif" font-size="14.00">COLOP</text> <text text-anchor="middle" x="246.68" y="-85.8" font-family="Times,serif" font-size="14.00">Page m2 Line m2</text> </g> <!-- XIMENEZ_x2y2&#45;&gt;COLOP_m2y2 --> <g id="edge2" class="edge">
+<title>
+XIMENEZ_x2y2-&gt;COLOP_m2y2
+</title>
+<path fill="none" stroke="black" d="M246.68,-155.14C246.68,-147.24 246.68,-137.98 246.68,-129.3"></path> <polygon fill="black" stroke="black" points="250.18,-129.13 246.68,-119.13 243.18,-129.13 250.18,-129.13"></polygon> </g> </g>
+</svg>
+</p>
+</div>
+</div>
+</div>
+</section>
+<section id="plan" class="level2">
+<h2 class="anchored" data-anchor-id="plan">Plan</h2>
+<ul>
+<li>Collaborate with Shakespeare Variorum Project at Texas A&amp;M University with Katayoun Torabi) and Laura Mandell, Professor of English at Texas A&amp;M University, Director of the Center of Digital Humanities Research at TAMU)[http://codhr.tamu.edu], and Director of (ARC)[http://www.ar-c.org].</li>
+<li>Create TEI versions of all translations within scope.</li>
+<li>Create collation (text map) of all element pairs.</li>
+</ul>
+</section>
+<section id="examples-and-resources" class="level2">
+<h2 class="anchored" data-anchor-id="examples-and-resources">Examples and Resources</h2>
+<ul>
+<li><a href="https://newvariorumshakespeare.org/">Shakespeare</a></li>
+<li><a href="http://raffazizzi.github.io/coreBuilder/">coreBuilder</a></li>
+</ul>
+</section>
+<section id="popol-wujs" class="level2">
+<h2 class="anchored" data-anchor-id="popol-wujs">Popol Wujs</h2>
+<p><a href="resources/info-arch.png"> <img src="resources/info-arch.png" height="450"> </a></p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<p>
+<svg width="672" height="480" viewbox="0.00 0.00 348.26 293.60" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 289.6)">
+<title>
+G
+</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-289.6 344.26,-289.6 344.26,4 -4,4"></polygon> <!-- KICHE --> <g id="node1" class="node">
+<title>
+KICHE
+</title>
+<text text-anchor="middle" x="124.55" y="-269" font-family="Times,serif" font-size="14.00">Original</text> <text text-anchor="middle" x="124.55" y="-252.2" font-family="Times,serif" font-size="14.00">K’iche’ story</text> </g> <!-- XIMENEZ --> <g id="node2" class="node">
+<title>
+XIMENEZ
+</title>
+<text text-anchor="middle" x="124.55" y="-191.4" font-family="Times,serif" font-size="14.00">Xímenez</text> <text text-anchor="middle" x="124.55" y="-174.6" font-family="Times,serif" font-size="14.00">transcription</text> <text text-anchor="middle" x="124.55" y="-157.8" font-family="Times,serif" font-size="14.00">and translation</text> </g> <!-- KICHE&#45;&gt;XIMENEZ --> <g id="edge1" class="edge">
+<title>
+KICHE-&gt;XIMENEZ
+</title>
+<path fill="none" stroke="black" d="M124.55,-243.89C124.55,-236.22 124.55,-227.18 124.55,-218.34"></path> <polygon fill="black" stroke="black" points="128.05,-218.15 124.55,-208.15 121.05,-218.15 128.05,-218.15"></polygon> </g> <!-- RECINOS --> <g id="node3" class="node">
+<title>
+RECINOS
+</title>
+<text text-anchor="middle" x="30.55" y="-88.6" font-family="Times,serif" font-size="14.00">Recinos</text> </g> <!-- XIMENEZ&#45;&gt;RECINOS --> <g id="edge2" class="edge">
+<title>
+XIMENEZ-&gt;RECINOS
+</title>
+<path fill="none" stroke="black" d="M92.99,-149.6C81.49,-139.32 68.6,-127.8 57.53,-117.91"></path> <polygon fill="black" stroke="black" points="59.63,-115.09 49.84,-111.03 54.96,-120.31 59.63,-115.09"></polygon> </g> <!-- CHEL --> <g id="node4" class="node">
+<title>
+CHEL
+</title>
+<text text-anchor="middle" x="124.55" y="-97" font-family="Times,serif" font-size="14.00">Briceño Chel</text> <text text-anchor="middle" x="124.55" y="-80.2" font-family="Times,serif" font-size="14.00">and Ramírez</text> </g> <!-- XIMENEZ&#45;&gt;CHEL --> <g id="edge3" class="edge">
+<title>
+XIMENEZ-&gt;CHEL
+</title>
+<path fill="none" stroke="black" d="M124.55,-149.36C124.55,-141.06 124.55,-131.97 124.55,-123.59"></path> <polygon fill="black" stroke="black" points="128.05,-123.47 124.55,-113.47 121.05,-123.47 128.05,-123.47"></polygon> </g> <!-- COLOP --> <g id="node5" class="node">
+<title>
+COLOP
+</title>
+<text text-anchor="middle" x="222.55" y="-88.6" font-family="Times,serif" font-size="14.00">Colop</text> </g> <!-- XIMENEZ&#45;&gt;COLOP --> <g id="edge5" class="edge">
+<title>
+XIMENEZ-&gt;COLOP
+</title>
+<path fill="none" stroke="black" d="M157.46,-149.6C169.57,-139.22 183.15,-127.57 194.76,-117.62"></path> <polygon fill="black" stroke="black" points="197.13,-120.2 202.44,-111.03 192.57,-114.89 197.13,-120.2"></polygon> </g> <!-- NEWYUK --> <g id="node8" class="node">
+<title>
+NEWYUK
+</title>
+<text text-anchor="middle" x="115.55" y="-13.8" font-family="Times,serif" font-size="14.00">New Yukatekan</text> </g> <!-- CHEL&#45;&gt;NEWYUK --> <g id="edge4" class="edge">
+<title>
+CHEL-&gt;NEWYUK
+</title>
+<path fill="none" stroke="black" d="M122.09,-71.91C121.13,-64.09 120,-54.99 118.96,-46.56"></path> <polygon fill="black" stroke="black" points="122.4,-45.89 117.7,-36.39 115.46,-46.75 122.4,-45.89"></polygon> </g> <!-- AHTZIB --> <g id="node6" class="node">
+<title>
+AHTZIB
+</title>
+<text text-anchor="middle" x="222.55" y="-13.8" font-family="Times,serif" font-size="14.00">Ajtz’ib’ab’</text> </g> <!-- COLOP&#45;&gt;AHTZIB --> <g id="edge7" class="edge">
+<title>
+COLOP-&gt;AHTZIB
+</title>
+<path fill="none" stroke="black" d="M222.55,-74.55C222.55,-66.12 222.55,-55.77 222.55,-46.3"></path> <polygon fill="black" stroke="black" points="226.05,-46.13 222.55,-36.13 219.05,-46.13 226.05,-46.13"></polygon> </g> <!-- ALDO --> <g id="node7" class="node">
+<title>
+ALDO
+</title>
+<text text-anchor="middle" x="308.55" y="-13.8" font-family="Times,serif" font-size="14.00">Bariente</text> </g> <!-- COLOP&#45;&gt;ALDO --> <g id="edge6" class="edge">
+<title>
+COLOP-&gt;ALDO
+</title>
+<path fill="none" stroke="black" d="M242.93,-74.55C254.18,-65.03 268.31,-53.07 280.58,-42.68"></path> <polygon fill="black" stroke="black" points="282.95,-45.26 288.32,-36.13 278.42,-39.92 282.95,-45.26"></polygon> </g> </g>
+</svg>
+</p>
+</div>
+</div>
+</div>
 
 
 </section>

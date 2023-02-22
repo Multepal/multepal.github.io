@@ -1,9 +1,44 @@
 [
   {
-    "objectID": "variorum.html#what-is-a-variorum",
-    "href": "variorum.html#what-is-a-variorum",
+    "objectID": "variorum.html",
+    "href": "variorum.html",
     "title": "The Popol Wuj Variorum",
-    "section": "What is a Variorum?",
-    "text": "What is a Variorum?"
+    "section": "",
+    "text": "A collection of all of the variants of a given text, e.g. the Ximenez transcription and translation of the K’iche’ Mayan text.\nEach text is connected to its source element by element. - An element is a unit of text, such as a paragraph, sentence, folio side, folio line, series of words, word, etc."
+  },
+  {
+    "objectID": "variorum.html#examples",
+    "href": "variorum.html#examples",
+    "title": "The Popol Wuj Variorum",
+    "section": "Examples",
+    "text": "Examples\n\nShakespeare Varioryum"
+  },
+  {
+    "objectID": "variorum.html#data-model",
+    "href": "variorum.html#data-model",
+    "title": "The Popol Wuj Variorum",
+    "section": "Data Model",
+    "text": "Data Model\nThe foundation of the variorum is the collocation table, a table that maps every element to its source.\n\n\n\nFuente\nDestino\nNotes\n\n\n\n\nXIMENEZ Folio x1 Line y1\nCOLOP Page m1 Line n1\n\n\n\nXIMENEZ Folio x2 Line y2\nCOLOP Page m2 Line m2\n\n\n\nCOLOP Page m1 Line n1\nAHTZIB Page p1 Line q1\n\n\n\nCOLOP Page m1 Line n1\nBARIENTE Page p2 Line q2\n\n\n\n\nOnce collected, these data may be used to generate graphs depicting the genealogy of translation for a given element of a translation.\nThis will allow scholars to conduct close readings of the texts and investigate the scholarly decisions made in producing a given translation.\n\n\n\n\n\n\n\nG\n\n  \n\nXIMENEZ_y1y1\n\nXIMENEZ Folio x1 Line y1   \n\nCOLOP_m1n1\n\nCOLOP Page m1 Line n1   \n\nXIMENEZ_y1y1->COLOP_m1n1\n\n    \n\nAHTZIB_p1q1\n\nAHTZIB Page x1 Line y1   \n\nCOLOP_m1n1->AHTZIB_p1q1\n\n    \n\nBARIENTE_p2q2\n\nBARIENTE Page p2 Line q2   \n\nCOLOP_m1n1->BARIENTE_p2q2\n\n    \n\nXIMENEZ_x2y2\n\nXIMENEZ Folio x2 Line y2   \n\nCOLOP_m2y2\n\nCOLOP Page m2 Line m2   \n\nXIMENEZ_x2y2->COLOP_m2y2"
+  },
+  {
+    "objectID": "variorum.html#plan",
+    "href": "variorum.html#plan",
+    "title": "The Popol Wuj Variorum",
+    "section": "Plan",
+    "text": "Plan\n\nCollaborate with Shakespeare Variorum Project at Texas A&M University with Katayoun Torabi) and Laura Mandell, Professor of English at Texas A&M University, Director of the Center of Digital Humanities Research at TAMU)[http://codhr.tamu.edu], and Director of (ARC)[http://www.ar-c.org].\nCreate TEI versions of all translations within scope.\nCreate collation (text map) of all element pairs."
+  },
+  {
+    "objectID": "variorum.html#examples-and-resources",
+    "href": "variorum.html#examples-and-resources",
+    "title": "The Popol Wuj Variorum",
+    "section": "Examples and Resources",
+    "text": "Examples and Resources\n\nShakespeare\ncoreBuilder"
+  },
+  {
+    "objectID": "variorum.html#popol-wujs",
+    "href": "variorum.html#popol-wujs",
+    "title": "The Popol Wuj Variorum",
+    "section": "Popol Wujs",
+    "text": "Popol Wujs\n  \n\n\n\n\n\n\n\nG\n\n  \n\nKICHE\n\nOriginal K’iche’ story   \n\nXIMENEZ\n\nXímenez transcription and translation   \n\nKICHE->XIMENEZ\n\n    \n\nRECINOS\n\nRecinos   \n\nXIMENEZ->RECINOS\n\n    \n\nCHEL\n\nBriceño Chel and Ramírez   \n\nXIMENEZ->CHEL\n\n    \n\nCOLOP\n\nColop   \n\nXIMENEZ->COLOP\n\n    \n\nNEWYUK\n\nNew Yukatekan   \n\nCHEL->NEWYUK\n\n    \n\nAHTZIB\n\nAjtz’ib’ab’   \n\nCOLOP->AHTZIB\n\n    \n\nALDO\n\nBariente   \n\nCOLOP->ALDO"
   }
 ]

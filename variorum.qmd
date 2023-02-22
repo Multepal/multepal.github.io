@@ -2,6 +2,92 @@
 title: The Popol Wuj Variorum
 ---
 
-## Introduction
-
 ## What is a Variorum?
+
+A collection of all of the variants of a given text, e.g. the Ximenez transcription and translation of the K'iche' Mayan text.
+
+Each text is connected to its source element by element.
+- An element is a unit of text, such as a paragraph, sentence, folio side, folio line, series of words, word, etc.
+
+## Examples
+- [Shakespeare Varioryum](https://newvariorumshakespeare.org/edition/mnd/)
+
+## Data Model
+
+The foundation of the variorum is the collocation table, a table that maps every element to its source.
+
+| Fuente                     | Destino                  | Notes |
+|----------------------------|--------------------------|-------|
+| `XIMENEZ Folio x1 Line y1` | `COLOP Page m1 Line n1`  |       |
+| `XIMENEZ Folio x2 Line y2` | `COLOP Page m2 Line m2`  |       |
+| `COLOP Page m1 Line n1`      | `AHTZIB Page p1 Line q1` |       |
+| `COLOP Page m1 Line n1`      | `BARIENTE Page p2 Line q2` |       |
+
+Once collected, these data may be used to generate graphs depicting the genealogy of translation for a given element of a translation.
+
+This will allow scholars to conduct close readings of the texts and investigate the scholarly decisions made in producing a given translation.
+
+```{dot}
+
+digraph G {
+
+    node [shape="plaintext"]
+
+    XIMENEZ_y1y1 [label="XIMENEZ\nFolio x1 Line y1"]
+    COLOP_m1n1 [label="COLOP\nPage m1 Line n1"]
+
+    XIMENEZ_y1y1 -> COLOP_m1n1
+
+    XIMENEZ_x2y2 [label="XIMENEZ\nFolio x2 Line y2"]
+    COLOP_m2y2 [label="COLOP\nPage m2 Line m2"]
+    XIMENEZ_x2y2 -> COLOP_m2y2
+
+    COLOP_m1n1 [label="COLOP\nPage m1 Line n1"]
+    AHTZIB_p1q1 [label="AHTZIB\nPage x1 Line y1"]
+    COLOP_m1n1 -> AHTZIB_p1q1
+
+    COLOP_m1n1 [label="COLOP\nPage m1 Line n1"]
+    BARIENTE_p2q2 [label="BARIENTE\nPage p2 Line q2"]
+    COLOP_m1n1 -> BARIENTE_p2q2
+
+}
+
+```
+
+## Plan
+- Collaborate with Shakespeare Variorum Project at Texas A&amp;M University with Katayoun Torabi) and Laura Mandell, Professor of English at Texas A&M University, Director of the Center of Digital Humanities Research at TAMU)[http://codhr.tamu.edu], and Director of (ARC)[http://www.ar-c.org].
+- Create TEI versions of all translations within scope.
+- Create collation (text map) of all element pairs.
+
+## Examples and Resources
+
+-   [Shakespeare](https://newvariorumshakespeare.org/)
+-   [coreBuilder](http://raffazizzi.github.io/coreBuilder/)
+
+## Popol Wujs
+
+<a href="resources/info-arch.png"> <img src="resources/info-arch.png" height="450"/> </a>
+
+```{dot}
+digraph G {
+
+    node [shape="plaintext"]
+
+    KICHE [label="Original\nK'iche' story"]
+    XIMENEZ [label="Xímenez\ntranscription\nand translation"]
+    RECINOS [label="Recinos"]
+    CHEL [label="Briceño Chel\nand Ramírez"]
+    COLOP [label="Colop"]
+    AHTZIB [label="Ajtz'ib'ab'"]
+    ALDO [label="Bariente"]
+    NEWYUK [label="New Yukatekan"]
+
+    KICHE -> XIMENEZ
+    XIMENEZ -> RECINOS
+    XIMENEZ -> CHEL -> NEWYUK
+    XIMENEZ -> COLOP
+    COLOP -> ALDO
+    COLOP -> AHTZIB
+
+}
+```

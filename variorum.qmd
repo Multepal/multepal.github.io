@@ -55,7 +55,7 @@ digraph G {
 ```
 
 ## Plan
-- Collaborate with Shakespeare Variorum Project at Texas A&amp;M University with Katayoun Torabi) and Laura Mandell, Professor of English at Texas A&M University, Director of the Center of Digital Humanities Research at TAMU)[http://codhr.tamu.edu], and Director of (ARC)[http://www.ar-c.org].
+- Collaborate with Shakespeare Variorum Project at Texas A&amp;M University with Katayoun Torabi) and Laura Mandell, Professor of English at Texas A&M University, Director of the [Center of Digital Humanities Research at TAMU](http://codhr.tamu.edu), and Director of [ARC](http://www.ar-c.org).
 - Create TEI versions of all translations within scope.
 - Create collation (text map) of all element pairs.
 

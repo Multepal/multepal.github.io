@@ -1,5 +1,6 @@
 ---
 title: The Popol Wuj Variorum
+format: html
 ---
 
 ## What is a Variorum?
@@ -35,7 +36,6 @@ digraph G {
 
     XIMENEZ_y1y1 [label="XIMENEZ\nFolio x1 Line y1"]
     COLOP_m1n1 [label="COLOP\nPage m1 Line n1"]
-
     XIMENEZ_y1y1 -> COLOP_m1n1
 
     XIMENEZ_x2y2 [label="XIMENEZ\nFolio x2 Line y2"]
@@ -80,14 +80,17 @@ digraph G {
     COLOP [label="Colop"]
     AHTZIB [label="Ajtz'ib'ab'"]
     ALDO [label="Bariente"]
-    NEWYUK [label="New Yukatekan"]
+    NEWYUK [label="Nuevo Yukateko"]
+    VIDEOS [label="Videos\ninYukateko"]
 
     KICHE -> XIMENEZ
     XIMENEZ -> RECINOS
     XIMENEZ -> CHEL -> NEWYUK
     XIMENEZ -> COLOP
     COLOP -> ALDO
-    COLOP -> AHTZIB
+    COLOP -> VIDEOS
+    XIMENEZ -> AHTZIB
+
 
 }
 ```

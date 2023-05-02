@@ -1,5 +1,50 @@
 ---
-title: "Multepal"
+title: "The Multepal Project"
+format: html
 ---
 
-## Welcome to the Multepal Project
+## Welcome
+
+The Multepal project is dedicatd to producing new editions of the _Popol Wuj_, an ancient Maya narrative that is considered to be the most well-known and influential Indigenous text of the pre-1492 Americas. 
+
+With teams in Mexico, Guatemala, and the United States, currently we are making a Yukatek version of the story in video form intended for children and a new K’iche’ version, based on the sole manuscript to survive the colonial era, intended for scholarly use. 
+
+In addition, we have produced annotated digital editions of the original 18th-century manuscript and associated texts, using standards of the Text Encoding Initiative (TEI) and open source principles coupled with those of indigenous data sovereignty. Part of this digital edition will be a variorum that integrates all of the project’s texts.
+
+These efforts promote language acquisition, literacy skills, and the preservation of cultural heritage among children and adults. They also help preserve the two Maya languages, which are endangered.
+
+## Projects
+
+**_Popol Wuj_ Editions**
+
+- [Ajtz'ib'ab' (K'iche')](https://github.com/Multepal/popolwuj-ajtzibab-kiche). A linguistically definitive edition that contains significant orthographic, grammatical, and semantical revisions to the K’iche’ text, based the original manuscript. Developed by the Guatemala team. 
+- [UVA (Spanish and K'iche')](https://github.com/Multepal/popolwuj-ximenez-original). A TEI-encoded annotated version of the original Ximenez manuscript, using stand-off markup. 
+- [Fidencio Briceño Chel and Rubén Reyes Ramírez (Spanish and Yukatek)](https://github.com/Multepal/poopolwuuj-chel-yukateko). A TEI-encoded version of the popular edition, developed by the UVA team.
+- [Samuel Colop 1999 (K'iche')](https://github.com/Multepal/popolwuj-colop-poetica-kiche). A TEI-encoded verion of Colop's edition, developed by the UVA team (Aldo Barriente).
+- [CTS Compliant](https://github.com/Multepal/CTS). A CTS compliant version of the UVA edition, developed by the UVA team (Aldo Barriente).
+
+**Interactive Tools**
+
+- [Áanalte](https://multepal.github.io/app-aanalte/). A platform for generating and displaying TEI encoded versions from textual sources.
+- [Topics and Annotations](http://multepal.spanitalport.virginia.edu/). A database of topics, annotations of primary sources, and a bibliography of primary and secondary sources.
+
+**Documentation**
+
+- [TEI Schema](https://github.com/Multepal/documentation-schema-texts). Development space for the TEI ODD (schema), TEI headers, and XSLTs used to validate all source texts to be ingested by Multepal/aanalte.
+
+
+
+##  People
+
+**Yukatek Team**
+
+Óscar Chan, Irma Pomo, Miriam Uitz, Karen Solís, Carlos Cámara, Cristina Pech, Leydi Couoh, Carmela Alcaraz, Jesús Barrios, and community participants
+
+**K’iche’ Team**
+
+Ajpub’ Pablo García Ixmatá, Juana Cecelia Ixch’umiil García Méndez, Saqijix Candelaria Dominga López Ixcoy, María Beatríz Par Sapón, Aj Xol Héctor Rolando
+
+**University of Virginia Team**
+
+Rafael Alvarado, Allison Bigelow, Lucie Wall Stylianopoulos, Ann Burns, Miguel Valladares Llata, Aldo Barriente, Winnie Pérez Martínez, Sofía Marrero, Keerthi Medicharla, Mar Sotelo Padrón
+Students are listed in italics. Maya languages represented: K’iche’, Q’eqchi’, Tz’utujil, and Yukatek.

@@ -32,8 +32,6 @@ These efforts promote language acquisition, literacy skills, and the preservatio
 
 - [TEI Schema](https://github.com/Multepal/documentation-schema-texts). Development space for the TEI ODD (schema), TEI headers, and XSLTs used to validate all source texts to be ingested by Multepal/aanalte.
 
-
-
 ##  People
 
 **Yukatek Team**

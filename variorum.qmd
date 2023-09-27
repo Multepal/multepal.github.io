@@ -8,6 +8,7 @@ format: html
 A collection of all of the variants of a given text, e.g. the Ximenez transcription and translation of the K'iche' Mayan text.
 
 Each text is connected to its source element by element.
+
 - An element is a unit of text, such as a paragraph, sentence, folio side, folio line, series of words, word, etc.
 
 ## Examples

@@ -1,0 +1,3 @@
+Collaborators
+
+The Multepal project was conceived originally to support a collaborative text-encoding project for a graduate seminar in the Department of Spanish, Italian, and Portuguese at the University of Virginia. It is now an independent research initiative in digital Mesoamerican Studies, whose current focus concerns the Maya K'iche' narrative, Popol Wuj.

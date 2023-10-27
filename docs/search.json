@@ -1,7 +1,49 @@
 [
   {
+    "objectID": "Collaborators.html",
+    "href": "Collaborators.html",
+    "title": "Multepal",
+    "section": "",
+    "text": "Collaborators\nThe Multepal project was conceived originally to support a collaborative text-encoding project for a graduate seminar in the Department of Spanish, Italian, and Portuguese at the University of Virginia. It is now an independent research initiative in digital Mesoamerican Studies, whose current focus concerns the Maya K’iche’ narrative, Popol Wuj."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Multepal",
+    "section": "",
+    "text": "The Multepal project is dedicatd to producing new editions of the Popol Wuj, an ancient Maya narrative that is considered to be the most well-known and influential Indigenous text of the pre-1492 Americas.\nWith teams in Mexico, Guatemala, and the United States, currently we are making a Yukatek version of the story in video form intended for children and a new K’iche’ version, based on the sole manuscript to survive the colonial era, intended for scholarly use.\nIn addition, we have produced annotated digital editions of the original 18th-century manuscript and associated texts, using standards of the Text Encoding Initiative (TEI) and open source principles coupled with those of indigenous data sovereignty. Part of this digital edition will be a variorum that integrates all of the project’s texts.\nThese efforts promote language acquisition, literacy skills, and the preservation of cultural heritage among children and adults. They also help preserve the two Maya languages, which are endangered.\n\n\n\nPopol Wuj Editions\n\nAjtz’ib’ab’ (K’iche’). A linguistically definitive edition that contains significant orthographic, grammatical, and semantical revisions to the K’iche’ text, based the original manuscript. Developed by the Guatemala team.\nUVA (Spanish and K’iche’). A TEI-encoded annotated version of the original Ximenez manuscript, using stand-off markup.\nFidencio Briceño Chel and Rubén Reyes Ramírez (Spanish and Yukatek). A TEI-encoded version of the popular edition, developed by the UVA team.\nSamuel Colop 1999 (K’iche’). A TEI-encoded verion of Colop’s edition, developed by the UVA team (Aldo Barriente).\nCTS Compliant. A CTS compliant version of the UVA edition, developed by the UVA team (Aldo Barriente).\n\nInteractive Tools\n\nÁanalte. A platform for generating and displaying TEI encoded versions from textual sources.\nTopics and Annotations. A database of topics, annotations of primary sources, and a bibliography of primary and secondary sources.\n\nDocumentation\n\nTEI Schema. Development space for the TEI ODD (schema), TEI headers, and XSLTs used to validate all source texts to be ingested by Multepal/aanalte.\n\n\n\n\nYukatek Team\nÓscar Chan, Irma Pomo, Miriam Uitz, Karen Solís, Carlos Cámara, Cristina Pech, Leydi Couoh, Carmela Alcaraz, Jesús Barrios, and community participants\nK’iche’ Team\nAjpub’ Pablo García Ixmatá, Juana Cecelia Ixch’umiil García Méndez, Saqijix Candelaria Dominga López Ixcoy, María Beatríz Par Sapón, Aj Xol Héctor Rolando\nUniversity of Virginia Team\nRafael Alvarado, Allison Bigelow, Lucie Wall Stylianopoulos, Ann Burns, Miguel Valladares Llata, Aldo Barriente, Winnie Pérez Martínez, Sofía Marrero, Keerthi Medicharla, Mar Sotelo Padrón Students are listed in italics. Maya languages represented: K’iche’, Q’eqchi’, Tz’utujil, and Yukatek."
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "Multepal",
+    "section": "",
+    "text": "The Multepal project is dedicatd to producing new editions of the Popol Wuj, an ancient Maya narrative that is considered to be the most well-known and influential Indigenous text of the pre-1492 Americas.\nWith teams in Mexico, Guatemala, and the United States, currently we are making a Yukatek version of the story in video form intended for children and a new K’iche’ version, based on the sole manuscript to survive the colonial era, intended for scholarly use.\nIn addition, we have produced annotated digital editions of the original 18th-century manuscript and associated texts, using standards of the Text Encoding Initiative (TEI) and open source principles coupled with those of indigenous data sovereignty. Part of this digital edition will be a variorum that integrates all of the project’s texts.\nThese efforts promote language acquisition, literacy skills, and the preservation of cultural heritage among children and adults. They also help preserve the two Maya languages, which are endangered."
+  },
+  {
+    "objectID": "index.html#projects",
+    "href": "index.html#projects",
+    "title": "Multepal",
+    "section": "",
+    "text": "Popol Wuj Editions\n\nAjtz’ib’ab’ (K’iche’). A linguistically definitive edition that contains significant orthographic, grammatical, and semantical revisions to the K’iche’ text, based the original manuscript. Developed by the Guatemala team.\nUVA (Spanish and K’iche’). A TEI-encoded annotated version of the original Ximenez manuscript, using stand-off markup.\nFidencio Briceño Chel and Rubén Reyes Ramírez (Spanish and Yukatek). A TEI-encoded version of the popular edition, developed by the UVA team.\nSamuel Colop 1999 (K’iche’). A TEI-encoded verion of Colop’s edition, developed by the UVA team (Aldo Barriente).\nCTS Compliant. A CTS compliant version of the UVA edition, developed by the UVA team (Aldo Barriente).\n\nInteractive Tools\n\nÁanalte. A platform for generating and displaying TEI encoded versions from textual sources.\nTopics and Annotations. A database of topics, annotations of primary sources, and a bibliography of primary and secondary sources.\n\nDocumentation\n\nTEI Schema. Development space for the TEI ODD (schema), TEI headers, and XSLTs used to validate all source texts to be ingested by Multepal/aanalte."
+  },
+  {
+    "objectID": "index.html#people",
+    "href": "index.html#people",
+    "title": "Multepal",
+    "section": "",
+    "text": "Yukatek Team\nÓscar Chan, Irma Pomo, Miriam Uitz, Karen Solís, Carlos Cámara, Cristina Pech, Leydi Couoh, Carmela Alcaraz, Jesús Barrios, and community participants\nK’iche’ Team\nAjpub’ Pablo García Ixmatá, Juana Cecelia Ixch’umiil García Méndez, Saqijix Candelaria Dominga López Ixcoy, María Beatríz Par Sapón, Aj Xol Héctor Rolando\nUniversity of Virginia Team\nRafael Alvarado, Allison Bigelow, Lucie Wall Stylianopoulos, Ann Burns, Miguel Valladares Llata, Aldo Barriente, Winnie Pérez Martínez, Sofía Marrero, Keerthi Medicharla, Mar Sotelo Padrón Students are listed in italics. Maya languages represented: K’iche’, Q’eqchi’, Tz’utujil, and Yukatek."
+  },
+  {
     "objectID": "variorum.html",
     "href": "variorum.html",
+    "title": "The Popol Wuj Variorum",
+    "section": "",
+    "text": "A collection of all of the variants of a given text, e.g. the Ximenez transcription and translation of the K’iche’ Mayan text.\nEach text is connected to its source element by element. - An element is a unit of text, such as a paragraph, sentence, folio side, folio line, series of words, word, etc."
+  },
+  {
+    "objectID": "variorum.html#what-is-a-variorum",
+    "href": "variorum.html#what-is-a-variorum",
     "title": "The Popol Wuj Variorum",
     "section": "",
     "text": "A collection of all of the variants of a given text, e.g. the Ximenez transcription and translation of the K’iche’ Mayan text.\nEach text is connected to its source element by element. - An element is a unit of text, such as a paragraph, sentence, folio side, folio line, series of words, word, etc."
@@ -18,7 +60,7 @@
     "href": "variorum.html#data-model",
     "title": "The Popol Wuj Variorum",
     "section": "Data Model",
-    "text": "Data Model\nThe foundation of the variorum is the collocation table, a table that maps every element to its source.\n\n\n\nFuente\nDestino\nNotes\n\n\n\n\nXIMENEZ Folio x1 Line y1\nCOLOP Page m1 Line n1\n\n\n\nXIMENEZ Folio x2 Line y2\nCOLOP Page m2 Line m2\n\n\n\nCOLOP Page m1 Line n1\nAHTZIB Page p1 Line q1\n\n\n\nCOLOP Page m1 Line n1\nBARIENTE Page p2 Line q2\n\n\n\n\nOnce collected, these data may be used to generate graphs depicting the genealogy of translation for a given element of a translation.\nThis will allow scholars to conduct close readings of the texts and investigate the scholarly decisions made in producing a given translation.\n\n\n\n\n\n\n\nG\n\n  \n\nXIMENEZ_y1y1\n\nXIMENEZ Folio x1 Line y1   \n\nCOLOP_m1n1\n\nCOLOP Page m1 Line n1   \n\nXIMENEZ_y1y1->COLOP_m1n1\n\n    \n\nAHTZIB_p1q1\n\nAHTZIB Page x1 Line y1   \n\nCOLOP_m1n1->AHTZIB_p1q1\n\n    \n\nBARIENTE_p2q2\n\nBARIENTE Page p2 Line q2   \n\nCOLOP_m1n1->BARIENTE_p2q2\n\n    \n\nXIMENEZ_x2y2\n\nXIMENEZ Folio x2 Line y2   \n\nCOLOP_m2y2\n\nCOLOP Page m2 Line m2   \n\nXIMENEZ_x2y2->COLOP_m2y2"
+    "text": "Data Model\nThe foundation of the variorum is the collocation table, a table that maps every element to its source.\n\n\n\nFuente\nDestino\nNotes\n\n\n\n\nXIMENEZ Folio x1 Line y1\nCOLOP Page m1 Line n1\n\n\n\nXIMENEZ Folio x2 Line y2\nCOLOP Page m2 Line m2\n\n\n\nCOLOP Page m1 Line n1\nAHTZIB Page p1 Line q1\n\n\n\nCOLOP Page m1 Line n1\nBARIENTE Page p2 Line q2\n\n\n\n\nOnce collected, these data may be used to generate graphs depicting the genealogy of translation for a given element of a translation.\nThis will allow scholars to conduct close readings of the texts and investigate the scholarly decisions made in producing a given translation.\n\n\n\n\n\n\n\nG\n\n  \n\nXIMENEZ_y1y1\n\nXIMENEZ Folio x1 Line y1   \n\nCOLOP_m1n1\n\nCOLOP Page m1 Line n1   \n\nXIMENEZ_y1y1-&gt;COLOP_m1n1\n\n    \n\nAHTZIB_p1q1\n\nAHTZIB Page x1 Line y1   \n\nCOLOP_m1n1-&gt;AHTZIB_p1q1\n\n    \n\nBARIENTE_p2q2\n\nBARIENTE Page p2 Line q2   \n\nCOLOP_m1n1-&gt;BARIENTE_p2q2\n\n    \n\nXIMENEZ_x2y2\n\nXIMENEZ Folio x2 Line y2   \n\nCOLOP_m2y2\n\nCOLOP Page m2 Line m2   \n\nXIMENEZ_x2y2-&gt;COLOP_m2y2"
   },
   {
     "objectID": "variorum.html#plan",
@@ -39,27 +81,13 @@
     "href": "variorum.html#popol-wujs",
     "title": "The Popol Wuj Variorum",
     "section": "Popol Wujs",
-    "text": "Popol Wujs\n  \n\n\n\n\n\n\n\nG\n\n  \n\nKICHE\n\nOriginal K’iche’ story   \n\nXIMENEZ\n\nXímenez transcription and translation   \n\nKICHE->XIMENEZ\n\n    \n\nRECINOS\n\nRecinos   \n\nXIMENEZ->RECINOS\n\n    \n\nCHEL\n\nBriceño Chel and Ramírez   \n\nXIMENEZ->CHEL\n\n    \n\nCOLOP\n\nColop   \n\nXIMENEZ->COLOP\n\n    \n\nAHTZIB\n\nAjtz’ib’ab’   \n\nXIMENEZ->AHTZIB\n\n    \n\nNEWYUK\n\nNuevo Yukateko   \n\nCHEL->NEWYUK\n\n    \n\nALDO\n\nBariente   \n\nCOLOP->ALDO\n\n    \n\nVIDEOS\n\nVideos inYukateko   \n\nCOLOP->VIDEOS"
+    "text": "Popol Wujs\n  \n\n\n\n\n\n\n\nG\n\n  \n\nKICHE\n\nOriginal K’iche’ story   \n\nXIMENEZ\n\nXímenez transcription and translation   \n\nKICHE-&gt;XIMENEZ\n\n    \n\nRECINOS\n\nRecinos   \n\nXIMENEZ-&gt;RECINOS\n\n    \n\nCHEL\n\nBriceño Chel and Ramírez   \n\nXIMENEZ-&gt;CHEL\n\n    \n\nCOLOP\n\nColop   \n\nXIMENEZ-&gt;COLOP\n\n    \n\nAHTZIB\n\nAjtz’ib’ab’   \n\nXIMENEZ-&gt;AHTZIB\n\n    \n\nNEWYUK\n\nNuevo Yukateko   \n\nCHEL-&gt;NEWYUK\n\n    \n\nALDO\n\nBariente   \n\nCOLOP-&gt;ALDO\n\n    \n\nVIDEOS\n\nVideos inYukateko   \n\nCOLOP-&gt;VIDEOS"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "The Multepal Project",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Multepal",
     "section": "",
-    "text": "The Multepal project is dedicatd to producing new editions of the Popol Wuj, an ancient Maya narrative that is considered to be the most well-known and influential Indigenous text of the pre-1492 Americas.\nWith teams in Mexico, Guatemala, and the United States, currently we are making a Yukatek version of the story in video form intended for children and a new K’iche’ version, based on the sole manuscript to survive the colonial era, intended for scholarly use.\nIn addition, we have produced annotated digital editions of the original 18th-century manuscript and associated texts, using standards of the Text Encoding Initiative (TEI) and open source principles coupled with those of indigenous data sovereignty. Part of this digital edition will be a variorum that integrates all of the project’s texts.\nThese efforts promote language acquisition, literacy skills, and the preservation of cultural heritage among children and adults. They also help preserve the two Maya languages, which are endangered."
-  },
-  {
-    "objectID": "index.html#projects",
-    "href": "index.html#projects",
-    "title": "The Multepal Project",
-    "section": "Projects",
-    "text": "Projects\nPopol Wuj Editions\n\nAjtz’ib’ab’ (K’iche’). A linguistically definitive edition that contains significant orthographic, grammatical, and semantical revisions to the K’iche’ text, based the original manuscript. Developed by the Guatemala team.\nUVA (Spanish and K’iche’). A TEI-encoded annotated version of the original Ximenez manuscript, using stand-off markup.\nFidencio Briceño Chel and Rubén Reyes Ramírez (Spanish and Yukatek). A TEI-encoded version of the popular edition, developed by the UVA team.\nSamuel Colop 1999 (K’iche’). A TEI-encoded verion of Colop’s edition, developed by the UVA team (Aldo Barriente).\nCTS Compliant. A CTS compliant version of the UVA edition, developed by the UVA team (Aldo Barriente).\n\nInteractive Tools\n\nÁanalte. A platform for generating and displaying TEI encoded versions from textual sources.\nTopics and Annotations. A database of topics, annotations of primary sources, and a bibliography of primary and secondary sources.\n\nDocumentation\n\nTEI Schema. Development space for the TEI ODD (schema), TEI headers, and XSLTs used to validate all source texts to be ingested by Multepal/aanalte."
-  },
-  {
-    "objectID": "index.html#people",
-    "href": "index.html#people",
-    "title": "The Multepal Project",
-    "section": "People",
-    "text": "People\nYukatek Team\nÓscar Chan, Irma Pomo, Miriam Uitz, Karen Solís, Carlos Cámara, Cristina Pech, Leydi Couoh, Carmela Alcaraz, Jesús Barrios, and community participants\nK’iche’ Team\nAjpub’ Pablo García Ixmatá, Juana Cecelia Ixch’umiil García Méndez, Saqijix Candelaria Dominga López Ixcoy, María Beatríz Par Sapón, Aj Xol Héctor Rolando\nUniversity of Virginia Team\nRafael Alvarado, Allison Bigelow, Lucie Wall Stylianopoulos, Ann Burns, Miguel Valladares Llata, Aldo Barriente, Winnie Pérez Martínez, Sofía Marrero, Keerthi Medicharla, Mar Sotelo Padrón Students are listed in italics. Maya languages represented: K’iche’, Q’eqchi’, Tz’utujil, and Yukatek."
+    "text": "The Site\nThis is the worksite of the Multepal Project at the University of Virginia. The purpose of the site is to provide participating students and scholars a platform to build out a thematic research collection associated with Mesoamerican society and culture, one of the primary goals of Multepal. This collection consists of an encyclopedia-like topic map, a bibliography of primary and secondary sources, and annotations of primary sources. We are currently focused on developing a digital critical edition of the K’iche’ Mayan book of creation, the Popol Wuj, and so the resources in the collection all pertain to that text.\nRational for a Digital Critical Edition\nFor these reasons, we wanted to create a digital edition of the text that would allow readers to appreciate the many meanings and histories embedded in the narrative. This thematic research collection unites key primary sources – namely, Ximénez’s K’iche’- and Spanish-language manuscript (1701-3), as it has been preserved at the Newberry Library and disseminated as pdfs by the Ohio State University Library – and variant translations, especially Sam Colop (2008), Dennis Tedlock and Andrés Xiloj (1996), and Allen Christenson (2003, 2008). We also make use of secondary work from archaeology, anthropology, art history, history, linguistics, and literary studies, as well as insights from In the future, we hope to add an English-language level using Allen J. Christenson’s (2003) literal poetic translation. We also plan to update the site with new research as it becomes available and as our readers share their insights with us.\nHistory"
   }
 ]

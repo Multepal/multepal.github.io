@@ -1,7 +1,7 @@
----
-title: "The Multepal Project"
-format: html
----
+
+<div class="home-page-content">
+<div style="height: 550px;"></div>
+
 
 ## Welcome
 
@@ -46,3 +46,4 @@ Ajpub’ Pablo García Ixmatá, Juana Cecelia Ixch’umiil García Méndez, Saqi
 
 Rafael Alvarado, Allison Bigelow, Lucie Wall Stylianopoulos, Ann Burns, Miguel Valladares Llata, Aldo Barriente, Winnie Pérez Martínez, Sofía Marrero, Keerthi Medicharla, Mar Sotelo Padrón
 Students are listed in italics. Maya languages represented: K’iche’, Q’eqchi’, Tz’utujil, and Yukatek.
+</div>

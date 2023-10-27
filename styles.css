@@ -1,1 +1,33 @@
-body {}
+
+.navbar-brand img {
+    max-height: 80px;  
+    width: auto;
+}
+.navbar {
+    min-height: 150px;  
+    background-color: #fdf1e1;
+    border-bottom: 1px solid black;
+}
+
+.home-page-content::before {
+    content: "";  
+    position: absolute;  
+    top: -5; 
+    left: 0;  
+    right: 0;
+    height: 80%;  
+    margin-top: -20px;
+    
+    background-image: url('resources/Comalcalco-2.png');
+    background-size: cover; 
+    background-position: center;  
+    background-repeat: no-repeat; 
+    
+    z-index: -5;  
+}
+
+.body {
+    position: relative;  
+}
+
+

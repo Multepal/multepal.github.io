@@ -1,0 +1,9 @@
+The Site
+
+This is the worksite of the Multepal Project at the University of Virginia. The purpose of the site is to provide participating students and scholars a platform to build out a thematic research collection associated with Mesoamerican society and culture, one of the primary goals of Multepal. This collection consists of an encyclopedia-like topic map, a bibliography of primary and secondary sources, and annotations of primary sources. We are currently focused on developing a digital critical edition of the K'iche' Mayan book of creation, the Popol Wuj, and so the resources in the collection all pertain to that text. 
+
+Rational for a Digital Critical Edition
+
+For these reasons, we wanted to create a digital edition of the text that would allow readers to appreciate the many meanings and histories embedded in the narrative. This thematic research collection unites key primary sources -- namely, Ximénez's K'iche'- and Spanish-language manuscript (1701-3), as it has been preserved at the Newberry Library and disseminated as pdfs by the Ohio State University Library -- and variant translations, especially Sam Colop (2008), Dennis Tedlock and Andrés Xiloj (1996), and Allen Christenson (2003, 2008). We also make use of secondary work from archaeology, anthropology, art history, history, linguistics, and literary studies, as well as insights from In the future, we hope to add an English-language level using Allen J. Christenson's (2003) literal poetic translation. We also plan to update the site with new research as it becomes available and as our readers share their insights with us.
+
+History

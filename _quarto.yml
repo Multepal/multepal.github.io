@@ -12,6 +12,10 @@ website:
         text: Home
       - href: variorum.qmd
         text: Variorum
+      - href: googlef2b65577a3d44b99.html
+        text: Google
+  open-graph: true
+
 
 format:
   html:

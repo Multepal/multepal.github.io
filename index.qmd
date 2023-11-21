@@ -1,18 +1,35 @@
 
-<div class="home-page-content">
-<div style="height: 550px;"></div>
+::: {.home-page-content}
+::: {.col-half} 
+:::
+:::
+::: {.title}
+## Multepal
+:::
+::: {.Welcome-text}
+The Multepal project is dedicated to producing new editions 
+of the _Popol Wuj_, an ancient Maya narrative that is considered 
+to be the most well-known and influential Indigenous text of the 
+pre-1492 Americas. 
+With teams in Mexico, Guatemala, and the United States, 
+currently we are making a Yukatek version of the story in video 
+form intended for children and a new K’iche’ version, based on 
+the sole manuscript to survive the colonial era, intended for 
+scholarly use. 
 
+In addition, we have produced annotated digital editions of the 
+original 18th-century manuscript and associated texts, using standards 
+of the Text Encoding Initiative (TEI) and open source principles
+coupled with those of indigenous data sovereignty. Part of this 
+digital edition will be a variorum that integrates all of the project’s
+    texts.
 
-## Welcome
+These efforts promote language acquisition, literacy skills, and the 
+preservation of cultural heritage among children and adults. They also
+help preserve the two Maya languages, which are endangered.
 
-The Multepal project is dedicatd to producing new editions of the _Popol Wuj_, an ancient Maya narrative that is considered to be the most well-known and influential Indigenous text of the pre-1492 Americas. 
-
-With teams in Mexico, Guatemala, and the United States, currently we are making a Yukatek version of the story in video form intended for children and a new K’iche’ version, based on the sole manuscript to survive the colonial era, intended for scholarly use. 
-
-In addition, we have produced annotated digital editions of the original 18th-century manuscript and associated texts, using standards of the Text Encoding Initiative (TEI) and open source principles coupled with those of indigenous data sovereignty. Part of this digital edition will be a variorum that integrates all of the project’s texts.
-
-These efforts promote language acquisition, literacy skills, and the preservation of cultural heritage among children and adults. They also help preserve the two Maya languages, which are endangered.
-
+:::
+::: {.text}
 ## Projects
 
 **_Popol Wuj_ Editions**
@@ -46,4 +63,4 @@ Ajpub’ Pablo García Ixmatá, Juana Cecelia Ixch’umiil García Méndez, Saqi
 
 Rafael Alvarado, Allison Bigelow, Lucie Wall Stylianopoulos, Ann Burns, Miguel Valladares Llata, Aldo Barriente, Winnie Pérez Martínez, Sofía Marrero, Keerthi Medicharla, Mar Sotelo Padrón
 Students are listed in italics. Maya languages represented: K’iche’, Q’eqchi’, Tz’utujil, and Yukatek.
-</div>
+:::

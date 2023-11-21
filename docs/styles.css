@@ -30,4 +30,43 @@
     position: relative;  
 }
 
+.col-half::before {
+    content: "";  
+    position: absolute;  
+    top: 700px; 
+    left: -260px;  
+    width: 90%; 
+    height: 600px;  
 
+    background-image: url('resources/tortillas.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    z-index: 1;  
+}
+
+.col-half {
+    position: relative;  
+}
+.Welcome-text {
+    position: absolute; 
+    top: 130%;
+    left: 780px; 
+    width: 30%;
+}
+
+.title {
+    position: absolute; 
+    top: 105%;
+    left: 50px; 
+    width: 30%; 
+    
+}
+
+.text {
+    position: absolute; 
+    top: 210%; 
+    left: 50px; 
+    width: 90%;
+}

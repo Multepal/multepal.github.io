@@ -1,0 +1,1 @@
+By entering this site you recognize the data sovereignty of the K’iche’ people and the contributions of Indigenous women and men, present and past, to these kinds of scholarly research projects. Users who enter the site agree to us the wisdom and knowledge contained within this pages in ways that respect the art, history, and culture of the K’iche’ people.

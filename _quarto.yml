@@ -2,24 +2,89 @@ project:
   type: website
   title: Multepal
   output-dir: docs
-  resources: resources
-
+  resources: 
+    - images
+    
 website:
-  title: "The Multepal Project"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - href: variorum.qmd
-        text: Variorum
-      - href: googlef2b65577a3d44b99.html
-        text: Google
+  page-navigation: true
+  title: "Multepal"
+  description: "New Editions of the Popol Wuj"
+  site-url: "https://multepal.github.io"
+  
+  repo-url: https://github.com/multepal/multepal.github.io
+  repo-actions: [edit, issue]
+
   open-graph: true
+  twitter-card:
+    creator: "@ontoligent"
+    image: "/images/logo.png"
 
+  page-footer:
+    left: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
+    background: "#A7D5E8"
+    right:
+    - text: "License"
+      href: pages/license.md
+    - text: "Agreement"
+      href: pages/agreement.md
 
+  navbar:
+    background: "#A7D5E8"
+    logo: "images/logo.png"
+    align: center
+    title: false
+    collapse-below: lg
+ 
+    right:
+      - icon: github
+        href: https://github.com/multepal/multepal.github.io
+        aria-label: GitHub
+      # - icon: cloud-fill
+      #   href: https://rstudio.cloud/spaces/1655/join?access_code=5rdjusfIYF5iI0Gum2vNsBDLdtdnIEELBkf2EivK
+      #   aria-label: RStudio Cloud
+
+    left:
+      - text: "Overview"
+        href: index.qmd
+      - text: "Editions"
+        href: pages/editions.qmd
+      - text: "Resources"
+        href: pages/resources.qmd
+      - text: "Variorum"
+        href: pages/variorum.qmd
+      - text: "Teams"
+        href: pages/teams.qmd
+
+  sidebar:
+
+    - id: editions
+      title: "Editions"
+      contents:
+        - href: editions.qmd
+    - id: resources
+      title: "Resources"
+      contents:
+        - href: resources.qmd
+    - id: variorum
+      title: "Variorum"
+      contents:
+        - href: variorum.qmd
+    - id: teams
+      title: "Teams"
+      contents:
+        - href: teams.qmd
+    
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme:
+      light: [cosmo, style/dsbox.scss]
+      dark: [cosmo, style/dsbox.scss, style/dark.scss]
     toc: true
+    code-copy: true
+    code-overflow: wrap
+    mainfont: "Atkinson Hyperlegible"
+    include-in-header: "style/fontawesome.html"
 
+freeze: auto
+
+editor: visual

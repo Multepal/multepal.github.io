@@ -1,0 +1,11 @@
+# Popol Wuj Editions
+
+[**Ajtz'ib'ab' (K'iche')**](https://github.com/Multepal/popolwuj-ajtzibab-kiche). A linguistically definitive edition that contains significant orthographic, grammatical, and semantical revisions to the K’iche’ text, based the original manuscript. Developed by the Guatemala team.
+
+[**UVA (Spanish and K'iche')**](https://github.com/Multepal/popolwuj-ximenez-original). A TEI-encoded annotated version of the original Ximenez manuscript, using stand-off markup.
+
+[**Fidencio Briceño Chel and Rubén Reyes Ramírez (Spanish and Yukatek)**](https://github.com/Multepal/poopolwuuj-chel-yukateko). A TEI-encoded version of the popular edition, developed by the UVA team.
+
+[**Samuel Colop 1999 (K'iche')**](https://github.com/Multepal/popolwuj-colop-poetica-kiche). A TEI-encoded version of Colop's edition, developed by the UVA team (Aldo Barriente).
+
+[**CTS Compliant**](https://github.com/Multepal/CTS). A CTS compliant version of the UVA edition, developed by the UVA team (Aldo Barriente).

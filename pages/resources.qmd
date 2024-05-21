@@ -1,0 +1,7 @@
+# Resources
+
+[**Áanalte**](https://multepal.github.io/app-aanalte/). A platform for generating and displaying TEI encoded versions from textual sources.
+
+[**Topics and Annotations**](https://multepal.spanitalport.virginia.edu/). A database of topics, annotations of primary sources, and a bibliography of primary and secondary sources.
+
+[**TEI Schema**](https://github.com/Multepal/documentation-schema-texts). Development space for the TEI ODD (schema), TEI headers, and XSLTs used to validate all source texts to be ingested by Multepal's Áanalte Reader.

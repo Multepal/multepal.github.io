@@ -10,9 +10,13 @@ website:
   title: "Multepal"
   description: "New Editions of the Popol Wuj"
   site-url: "https://multepal.github.io"
+
+  body-header: | 
+    ![](/images/cropped-pv-figure-large.png)
+  # margin-header: |
   
   repo-url: https://github.com/multepal/multepal.github.io
-  repo-actions: [edit, issue]
+  # repo-actions: [edit, issue]
 
   open-graph: true
   twitter-card:
@@ -39,9 +43,6 @@ website:
       - icon: github
         href: https://github.com/multepal/multepal.github.io
         aria-label: GitHub
-      # - icon: cloud-fill
-      #   href: https://rstudio.cloud/spaces/1655/join?access_code=5rdjusfIYF5iI0Gum2vNsBDLdtdnIEELBkf2EivK
-      #   aria-label: RStudio Cloud
 
     left:
       - text: "Overview"
@@ -77,12 +78,13 @@ website:
 format:
   html:
     theme:
-      light: [cosmo, style/dsbox.scss]
-      dark: [cosmo, style/dsbox.scss, style/dark.scss]
+      light: [cosmo, style/dsbox.scss, style/styles.css]
+      dark: [cosmo, style/dsbox.scss, style/styles.css, style/dark.scss]
     toc: true
     code-copy: true
     code-overflow: wrap
     mainfont: "Atkinson Hyperlegible"
+    # mainfont: "IM Fell English SC"
     include-in-header: "style/fontawesome.html"
 
 freeze: auto

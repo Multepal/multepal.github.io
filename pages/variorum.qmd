@@ -1,7 +1,5 @@
----
-title: The Popol Wuj Variorum
-format: html
----
+# A Popol Wuj Variorum
+
 
 ## What is a Variorum?
 

@@ -10,13 +10,7 @@ website:
   title: "Multepal"
   description: "New Editions of the Popol Wuj"
   site-url: "https://multepal.github.io"
-
-  # body-header: cropped-pv-figure-large.png
-  # margin-header: |
-  
   repo-url: https://github.com/multepal/multepal.github.io
-  # repo-actions: [edit, issue]
-
   open-graph: true
   twitter-card:
     creator: "@ontoligent"

@@ -11,8 +11,7 @@ website:
   description: "New Editions of the Popol Wuj"
   site-url: "https://multepal.github.io"
 
-  body-header: | 
-    ![](/images/cropped-pv-figure-large.png)
+  # body-header: cropped-pv-figure-large.png
   # margin-header: |
   
   repo-url: https://github.com/multepal/multepal.github.io
@@ -33,6 +32,7 @@ website:
       href: pages/agreement.md
 
   navbar:
+    
     background: "#A7D5E8"
     logo: "images/logo.png"
     align: center
@@ -77,6 +77,9 @@ website:
     
 format:
   html:
+    page-layout: full
+    title-block-banner: images/cropped-pv-figure-large.png
+    css: style/custom.css
     theme:
       light: [cosmo, style/dsbox.scss, style/styles.css]
       dark: [cosmo, style/dsbox.scss, style/styles.css, style/dark.scss]

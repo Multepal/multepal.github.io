@@ -1,15 +1,46 @@
-# The Multepal Project
+---
+title: "The Multepal Project"
+format: html
+---
 
-::: callout-important
-By entering this site you recognize the data sovereignty of the K’iche’ people and the contributions of Indigenous women and men, present and past, to these kinds of scholarly research projects. Users who enter the site agree to us the wisdom and knowledge contained within this pages in ways that respect the art, history, and culture of the K’iche’ people.
+::: bourdieu
+By entering this site you recognize the data sovereignty of the K’iche’ people and the contributions of Indigenous women and men, present and past, to these kinds of scholarly research projects. Users who enter the site agree to use the wisdom and knowledge contained within this pages in ways that respects the art, history, and culture of the K’iche’ people.
 :::
 
-## Welcome
+# Welcome
 
-The Multepal project is dedicated to producing new editions of the *Popol Wuj*, an ancient Maya narrative that is considered to be the most well-known and influential Indigenous text of the pre-1492 Americas.
+The Multepal project is **an international NSF-funded project** dedicated to creating **new editions of the *Popol Wuj*** and other indigenous texts from Mesoamerica. *The Popol Wuj* is an ancient Maya narrative that was written down in the sixteenth century and later transcribed into its surviving manuscript form in the early eighteenth century. It is the most well-known and influential surviving Indigenous text of the pre-1492 Americas. Its influence survives todayas a window to the ancient Maya world and its turbulent colonial history, and as a foundational text for contemporary Maya identity.
 
-With teams in Mexico, Guatemala, and the United States, currently we are making a Yukatek version of the story in video form intended for children and a new K’iche’ version, based on the sole manuscript to survive the colonial era, intended for scholarly use.
+# Our Purpose
 
-In addition, we have produced annotated digital editions of the original 18th-century manuscript and associated texts, using standards of the [Text Encoding Initiative (TEI)](https://tei-c.org/) and [open source principles](https://opensource.org/osd) coupled with those of [indigenous data sovereignty](https://nni.arizona.edu/our-work/research-policy-analysis/indigenous-data-sovereignty-governance). Part of this digital edition will be a variorum that integrates all of the project’s texts.
+With teams in Mexico, Guatemala, and the United States, our purpose is to sponsor the creation of new editions of the *Popol Wuj* for popular and academic audiences in a variety of languages. We are also dedicted to creating new digital editions, following open source scholarly standards, of existing published translations of the text, including those of Recinos and Colop. All of these efforts promote language acquisition, literacy skills, and the preservation of cultural heritage among children and adults. They also help preserve the two Maya languages, which are endangered.
 
-These efforts promote language acquisition, literacy skills, and the preservation of cultural heritage among children and adults. They also help preserve the two Maya languages, which are endangered.
+# Current Projects
+
+## Editions
+
+**Yukatek Video Edition.** A series of videos narrated in Yultekan along with original art. Designed for children as a resources for both a cultural and linguistic preservation.
+
+**The Ajtz'ib'ab' H'iche' edition**. A linguistically definitive edition that contains significant orthographic, grammatical, and semantical revisions to the K’iche’ text, based the original manuscript. Developed by the Guatemala team.
+
+**Annotated TEI Editions**. These are TEI-compliant editions of existing editions of the Popol Wul, including the original 18th-century manuscript and associated texts. All editions conform to standards of the [Text Encoding Initiative (TEI)](https://tei-c.org/) and [open source principles](https://opensource.org/osd) coupled with those of [indigenous data sovereignty](https://nni.arizona.edu/our-work/research-policy-analysis/indigenous-data-sovereignty-governance).
+
+## Resources
+
+**Topics and Annotations.** A database of topics, annotations of primary sources, and a bibliography of primary and secondary sources.
+
+**Text Viewer.** A web-based interactive viewer for TEI-encoded editions. The viewer allows users to read the text and follow links to the database of topics and annotations.
+
+# Teams
+
+## Yukatek Team
+
+Óscar Chan, Irma Pomo, Miriam Uitz, Karen Solís, Carlos Cámara, Cristina Pech, Leydi Couoh, Carmela Alcaraz, Jesús Barrios, and community participants
+
+## K’iche’ Team
+
+Ajpub’ Pablo García Ixmatá, Juana Cecelia Ixch’umiil García Méndez, Saqijix Candelaria Dominga López Ixcoy, María Beatríz Par Sapón, Aj Xol Héctor Rolando
+
+## University of Virginia Team
+
+Rafael Alvarado, Allison Bigelow, Lucie Wall Stylianopoulos, Ann Burns, Miguel Valladares Llata, Aldo Barriente, Winnie Pérez Martínez, Sofía Marrero, Keerthi Medicharla, Mar Sotelo Padrón Students are listed in italics. Maya languages represented: K’iche’, Q’eqchi’, Tz’utujil, and Yukatek.

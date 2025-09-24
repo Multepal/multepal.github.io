@@ -29,7 +29,7 @@ With teams in Mexico, Guatemala, and the United States, our purpose is to sponso
 
 **Topics and Annotations.** A database of topics, annotations of primary sources, and a bibliography of primary and secondary sources.
 
-**Text Viewer.** A web-based interactive viewer for TEI-encoded editions. The viewer allows users to read the text and follow links to the database of topics and annotations.
+**Áanalte Interactive Text Viewer.** A web-based interactive viewer for TEI-encoded editions. The viewer allows users to read the text and follow links to the database of topics and annotations.
 
 # Teams
 
